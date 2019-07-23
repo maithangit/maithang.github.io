@@ -1,0 +1,80 @@
+/* Stylesheet for recipel*/
+body.recipel {
+    font-size: 11pt;
+    background-color: white;
+    font-family: "Georgia", "Garamond", sans-serif;
+}
+
+.recipel > .header {
+    padding: 0px 10px;
+}
+
+.recipel > .header > img#avatar {
+    margin-top: 5px;
+    padding: 0px 10px;
+    border: 1px solid #3C1C27;
+}
+
+.recipel > .header > h1.pageTitle {
+    text-decoration: underline;
+    color: #A4A400;
+    text-align: center;
+    background-color: #F0F0F0;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-size: 22pt;
+}
+
+.recipel > .content {
+    padding: 0px 10px;
+}
+
+.recipel > .content > .section {
+    border-top: 1px solid #ddd;
+}
+
+.recipel > .content > .section > h2 {
+    color: #A4A400;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    font-size: 18pt;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}
+
+.recipel > .footer > .siteInfo > ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.recipel > .footer > .siteInfo > ul > li {
+    font-family: "monospace", sans-serif;
+}
+
+.recipel > .footer > .siteInfo > ul > li::after {
+    content: "|";
+    position:fixed;
+    right:0;
+}
+
+.recipel > .footer .w3cValidator {
+    padding-right: 30px;
+    text-align: right;
+}
+
+.recipel > .footer .w3cValidator a {
+    text-decoration: none;
+}
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+   }
