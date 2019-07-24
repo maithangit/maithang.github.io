@@ -88,3 +88,15 @@ div.content {
 #menu a {
     color: white;
 }
+
+.fontYellow {
+    color: #fde05b;
+}
+
+.dropCap {
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 12px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+  }
