@@ -78,3 +78,13 @@ div.content {
     float: right;
     padding-right: 30px;
 }
+
+#menu {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+#menu a {
+    color: white;
+}

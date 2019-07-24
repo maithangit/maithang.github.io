@@ -1,8 +1,12 @@
 /* Stylesheet for recipel*/
 body.recipel {
     font-size: 11pt;
-    background-color: white;
+    background-image: url("../images/recipel/silverware.jpg");
     font-family: "Georgia", "Garamond", sans-serif;
+}
+
+a {
+    color: #A4A400;
 }
 
 .recipel > .header {
@@ -15,15 +19,29 @@ body.recipel {
     border: 1px solid #3C1C27;
 }
 
-.recipel > .header > h1.pageTitle {
+.recipel > .header > .titleWrapper {
+    text-align: center;
+}
+
+.recipel > .header > .titleWrapper > h1.pageTitle {
     text-decoration: underline;
     color: #A4A400;
     text-align: center;
     background-color: #F0F0F0;
     padding: 5px 10px;
-    margin-bottom: 15px;
+    
     font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
     font-size: 22pt;
+    width: fit-content;
+    margin: auto auto 15px auto ;
+    letter-spacing: 7px;
+}
+
+.recipel > .header > .item-list {
+    list-style-type: none;
+    line-height: 1.5;
+    padding: 0px;
+    margin-top: 10px;
 }
 
 .recipel > .content {
@@ -43,8 +61,46 @@ body.recipel {
     font-size: 18pt;
 }
 
+.recipel > .content > .section > #userComments, #links {
+    list-style-type: none;
+}
+
+.recipel > .content > .section > #ingredients {
+    list-style-image: url(../images/recipel/pie_icon.gif);
+}
+
+.recipel > .content > .section > #ingredients, #directions, #links {
+    line-height: 1.5;
+}
+
+.recipel > .content > .section > #ingredients, #directions ul {
+    list-style-image: url(../images/recipel/pie_icon.gif);
+}
+
+.recipel > .content > .section > #links {
+    padding: 0px;
+    margin: 0px;
+}
+
+.recipel > .content > .section > ul li a {
+    text-decoration: none;
+}
+
+.recipel > .content > .section > ul li a:hover {
+    text-decoration: underline;
+}
+
+.recipel > .content > .section > #userComments li {
+    font-style: italic;
+    background-color: rgb(255, 242, 169);
+    display: block;
+}
+
 .lineThrough{
     text-decoration: line-through;
+}
+.recipel > .footer > .siteInfo {
+    text-align: right;
 }
 
 .recipel > .footer > .siteInfo > ul {
@@ -63,7 +119,7 @@ body.recipel {
 }
 
 .recipel > .footer .w3cValidator {
-    padding-right: 30px;
+    padding-right: 0px;
     text-align: right;
 }
 
@@ -72,9 +128,34 @@ body.recipel {
 }
 
 pre {
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
-   }
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
