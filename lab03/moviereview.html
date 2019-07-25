@@ -4,19 +4,21 @@
 		<title>TMNT - Rancid Tomatoes</title>
 		<link rel="shortcut icon" href="../images/movie/rotten.gif" />
 		<link href="../css/movie.css" type="text/css" rel="stylesheet" />
+		
+		<script type="text/javascript">
+			function PopUp(hideOrshow) {
+				if (hideOrshow == 'hide') 
+					document.getElementById('adBanner').style.display = "none";
+				else 
+					document.getElementById('adBanner').removeAttribute('style');
+			}
+			window.onload = function () {
+				PopUp('show');
+			}
+		</script>
 	</head>
 	
-	<script type="text/javascript">
-		function PopUp(hideOrshow) {
-		if (hideOrshow == 'hide') 
-			document.getElementById('adBanner').style.display = "none";
-		else 
-			document.getElementById('adBanner').removeAttribute('style');
-	}
-	window.onload = function () {
-		PopUp('show');
-	}
-	</script>
+	
 
 	<body>
 
