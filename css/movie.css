@@ -49,7 +49,7 @@ h1 {
     font-size: 8pt;
     font-family: Arial, sans-serif;
   }
-  section {
+  #review {
     margin-right: 31%;
     width:550px;
     column-count: 2;
@@ -62,7 +62,7 @@ h1 {
     border: 1px solid gray;
     display: inline;
   }
-  section {
+  #review {
     border: 1px solid gray;
     height: 100px;
   }
