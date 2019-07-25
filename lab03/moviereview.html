@@ -4,18 +4,6 @@
 		<title>TMNT - Rancid Tomatoes</title>
 		<link rel="shortcut icon" href="../images/movie/rotten.gif" />
 		<link href="../css/movie.css" type="text/css" rel="stylesheet" />
-		
-		<script>
-			function PopUp(hideOrshow) {
-				if (hideOrshow == 'hide') 
-					document.getElementById('adBanner').style.display = "none";
-				else 
-					document.getElementById('adBanner').removeAttribute('style');
-			}
-			window.onload = function () {
-				PopUp('show');
-			}
-		</script>
 	</head>
 	
 	
@@ -186,17 +174,11 @@
 			<p>(1-10) of 88</p>
 		</div>
 	</div>
-	<!--Popup dialog-->
-	<div id="adBanner" style="display:none;" >
-		<div id="popup">
-			<img src="../images/movie/move_popcorn.jpg" alt="Popcorn Movie">
-			<input class="button" type="button" value="Click Me" onclick="PopUp('hide');"/>
-		</div>
-	</div>
+	
 
-		<div class="validation">
-			<a href="https://validator.w3.org/check/referer"><img src="../images/movie/w3c-html.png" alt="Valid HTML5" /></a> <br />
-			<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="../images/movie/w3c-css.png" alt="Valid CSS" /></a>
-		</div>
-	</body>
+	<div class="validation">
+		<a href="https://validator.w3.org/check/referer"><img src="../images/movie/w3c-html.png" alt="Valid HTML5" /></a> <br />
+		<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="../images/movie/w3c-css.png" alt="Valid CSS" /></a>
+	</div>
+</body>
 </html>
