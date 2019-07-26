@@ -28,7 +28,7 @@ header h3 {
 #divOne {
     width: 50%;
     background-color: #AAAAAA;
-    min-height: 200px;
+    min-height: 260px;
     padding: 5px;
     order: 1;
 }
@@ -37,7 +37,7 @@ header h3 {
 #divTwo {
     width: 100%;
     background-color: #BBBBBB;
-    min-height: 200px;
+    min-height: 260px;
     padding: 5px;
     order: 3;
 }
@@ -45,7 +45,7 @@ header h3 {
 #divThree {
     width: 50%;
     background-color: #CCCCCC;
-    min-height: 200px;
+    min-height: 260px;
     padding: 5px;
     order: 2;
 }
@@ -90,18 +90,21 @@ footer {
 @media only screen and (min-width: 600px) {
     #divOne {
         width: 30%;
+		min-height: 500px;
         display: inline-flex;
         order: 1;
     }
     
     #divTwo {
         width: 40%;
+		min-height: 500px;
         display: inline-flex;
         order: 2;
     }
     
     #divThree {
         width: 30%;
+		min-height: 500px;
         display: inline-flex;
         order: 3;
     }
