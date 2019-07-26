@@ -5,18 +5,14 @@
 
     <title>Task list</title>
 
-    <link
-        rel="stylesheet"
-        type="text/css"
-        href="styles/tasks.css"
-        media="screen"
-    ></link>
+    <link rel="stylesheet" type="text/css" href="styles/tasks.css" media="screen" />
 </head>
 
 <body>
     <div id="menu">
         <a href="../index.html">Home</a>
     </div>
+    
     <header>
         <span>Task list</span>
     </header>
@@ -25,40 +21,25 @@
         <section>
             <form>
                 <div>
-                    <label>Task</label>
-
-                    <input
-                        type="text"
-                        required="required"
-                        name="task"
-                        class="large"
-                        placeholder="Breakfast at Tiffanys"
-                    ></input>
+                    <label for="task">Task</label>
+                    <input id="task" type="text" required="required" name="task" class="large" placeholder="Breakfast at Tiffanys" />
                 </div>
 
                 <div>
-                    <label>Required by</label>
-
-                    <input
-                        type="date"
-                        required="required"
-                        name="requiredBy"
-                    ></input>
+                    <label for="requiredBy">Required by</label>
+                    <input id="requiredBy" type="date" required="required" name="requiredBy" />
                 </div>
 
                 <div>
-                    <label>Category</label>
-
-                    <select name="category">
+                    <label for="category">Category</label>
+                    <select name="category" id="category">
                         <option value="Personal">Personal</option>
-
                         <option value="Work">Work</option>
                     </select>
                 </div>
 
                 <nav>
                     <a href="#">Save task</a>
-
                     <a href="#">Clear task</a>
                 </nav>
             </form>
@@ -75,9 +56,7 @@
                 <thead>
                     <tr>
                         <th>Name</th>
-
                         <th>Due</th>
-
                         <th>Category</th>
                     </tr>
                 </thead>
@@ -85,37 +64,26 @@
                 <tbody>
                     <tr>
                         <td>Return library books</td>
-
                         <td>
-                            <time datetime="2013-10-
-14">2013-10-14</time>
+                            <time datetime="2013-10-14">2013-10-14</time>
                         </td>
-
                         <td>Personal</td>
                     </tr>
-
                     <tr class="even">
                         <td>
-                            Perform project demo to
-stakeholders
+                            Perform project demo to stakeholders
                         </td>
-
                         <td>
-                            <time datetime="2013-10-
-14">2013-10-14</time>
+                            <time datetime="2013-10-14">2013-10-14</time>
                         </td>
-
                         <td>Work</td>
                     </tr>
 
                     <tr>
                         <td>Meet friends for dinner</td>
-
                         <td>
-                            <time datetime="2013-10-
-14">2013-10-14</time>
+                            <time datetime="2013-10-14">2013-10-14</time>
                         </td>
-
                         <td>Personal</td>
                     </tr>
                 </tbody>
