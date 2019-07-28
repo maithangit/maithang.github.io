@@ -1,3 +1,4 @@
+"use strict";
 
 function btnClicked() {
   alert("Hello, world!");

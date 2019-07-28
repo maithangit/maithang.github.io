@@ -26,3 +26,13 @@ textarea {
 	font-family: monospace;
 	font-size: 12pt;
 }
+
+.w3c {
+    text-align: right;
+}
+
+.w3c img {
+    border: 0;
+    width: 88px;
+    height: 31px;
+}
