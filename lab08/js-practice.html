@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Prototype</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-md-center">
+                    <h2>JS Practice</h2>
+            </div>
+            <div class="row justify-content-md-center">
+                <a href="../index.html">Home</a>
+            </div>
+        <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Reverse an Array
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-6">
+                            Arrays have a reverse method that changes the array by inverting the order in which its elements 
+                            appear. For this exercise, write two functions, reverseArray and reverseArrayInPlace. The first, 
+                            reverseArray, takes an array as argument and produces a new array that has the same elements in
+                            the inverse order. The second, reverseArrayInPlace, does what the reverse method does: it modifies
+                            the array given as argument by reversing its elements. Neither may use the standard reverse method. <br />
+                            console.log(reverseArray(["A", "B", "C"])); <br />
+                            // → ["C", "B", "A"]; <br />
+                            let arrayValue = [1, 2, 3, 4, 5];<br />
+                            reverseArrayInPlace(arrayValue);<br />
+                            console.log(arrayValue);<br />
+                            // → [5, 4, 3, 2, 1]<br />
+                            <em>You can make testing by inputing your array into the right side textbox - please accept no syntax checking is applied, ex:
+                                <ul>
+                                    <li>1, 2, 3, 4, 5</li>
+                                    <li>hoang, thang, mai</li>
+                                </ul>
+                            </em>
+                        </div>
+                        <div class="col col-lg-6">
+                            <label for="testingReverseArray"><strong>Testing Array</strong></label>
+                            <input class="form-control" id="testingReverseArray" name="testingReverseArray" value="1, 2, 3, 4, 5" />
+                            <button class="btn btn-primary mt-2" name="Reverse" id="Reverse">Reverse</button>
+                            <p></p>
+                            <p id="testingReverseArrayResult"></p>
+
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    A List
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-6">
+                            Write a function arrayToList that builds up a list structure like the one shown when given [1,
+                            2, 3] as argument. Also write a listToArray function that produces an array from a list. Then
+                            add a helper function prepend, which takes an element and a list and creates a new list that adds
+                            the element to the front of the input list, and nth, which takes a list and a number and returns the
+                            element at the given position in the list (with zero referring to the first element) or undefined
+                            when there is no such element.
+
+                            <br />If you haven’t already, also write a recursive version of nth.
+                            <br />console.log(arrayToList([10, 20]));
+                            <br />// → {value: 10, rest: {value: 20, rest: null}}
+                            <br />console.log(listToArray(arrayToList([10, 20, 30])));
+                            <br />// → [10, 20, 30]
+                            <br />console.log(prepend(10, prepend(20, null)));
+                            <br />// → {value: 10, rest: {value: 20, rest: null}}
+                            <br />console.log(nth(arrayToList([10, 20, 30]), 1));
+                            <br />// → 20
+                        </div>
+                        <div class="col col-lg-6">
+                            <label for="testingReverseArray"><strong>Testing Array To List</strong></label>
+                            <input class="form-control" id="arrayForTestingToList" name="testingReverseArray" value="1, 2, 3, 4, 5" />
+                            <button class="btn btn-primary mt-2" name="toList" id="toList">To List</button>
+                            <p></p>
+                            <p id="arrayToListResult"></p>
+
+                            <p></p>
+                            <p></p>
+                            <label for="testingReverseArray"><strong>Testing List To Array</strong></label>
+                            <input class="form-control" id="listForTestingToArray" name="testingReverseArray" value='{"value":"1","rest":{"value":" 2","rest":{"value":" 3","rest":{"value":" 4","rest":{"value":" 5","rest":{}}}}}}' />
+                            <button class="btn btn-primary mt-2" name="toArray" id="toArray">To List</button>
+                            <p></p>
+                            <p id="listToArrayResult"></p>
+
+                            <p></p>
+                            <p></p>
+                            <label for=""><strong>Testing prepend:</strong></label>
+                            <label for="testingReverseArray"><strong>List</strong></label>
+                            <input class="form-control" id="prependList" name="prependList" value='{"value":"10","rest":{"value":" 20","rest":{"value":" 30","rest":{"value":" 40","rest":{"value":" 50","rest":{}}}}}}' />
+                            <label for="testingReverseArray"><strong>Value to prepend</strong></label>
+                            <input class="form-control" id="prependValue" name="prependValue" value='-10' />
+                            <button class="btn btn-primary mt-2" name="prepend" id="prepend">Prepend</button>
+                            <p></p>
+                            <p id="prependResult"></p>
+
+
+                            <p></p>
+                            <p></p>
+                            <label for=""><strong>Testing nth:</strong></label>
+                            <label for="testingReverseArray"><strong>List</strong></label>
+                            <input class="form-control" id="nthList" name="nthList" value='{"value":"10","rest":{"value":" 20","rest":{"value":" 30","rest":{"value":" 40","rest":{"value":" 50","rest":{}}}}}}' />
+                            <label for="testingReverseArray"><strong>index</strong></label>
+                            <input class="form-control" id="index" name="index" value='2' />
+                            <button class="btn btn-primary mt-2" name="nth" id="nth">nth</button>
+                            <p></p>
+                            <p id="nthResult"></p>
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Deep comparison
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-lg-6">
+                            The == operator compares objects by identity. But sometimes you’d prefer to compare the values
+                            of their actual properties.
+                            <br />Write a function deepEqual that takes two values and returns true only if they are the same value
+                            or are objects with the same properties, where the values of the properties are equal when
+                            compared with a recursive call to deepEqual.listToArrayResult
+                            <br />To find out whether values should be compared directly (use the === operator for that) or have
+                            their properties compared, you can use the typeof operator. If it produces "object" for both
+                            values, you should do a deep comparison. But you have to take one silly exception into account:
+                            because of a historical accident, typeof null also produces "object".
+                            <br />The Object.keys function will be useful when you need to go over the properties of objects to
+                            compare them
+                            <br />let obj = {here: {is: "an"}, object: 2};
+                            <br />console.log(deepEqual(obj, obj));
+                            <br />// → true
+                            <br />console.log(deepEqual(obj, {here: 1, object: 2}));
+                            <br />// → false
+                            <br />console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
+                            <br />// → true
+                        </div>
+                        <div class="col col-lg-6">
+                            <label for="testingReverseArray">Testing Array</label>
+                            <textarea class="form-control" id="objectOne" name="testingReverseArray">{here: {is: "an"}, object: 2}</textarea>
+                            <textarea class="form-control" id="objectTwo" name="testingReverseArray">{here: 1, object: 2}</textarea>
+                            <button class="btn btn-primary mt-2" name="Compare" id="Compare">Compare</button>
+                            <p></p>
+                            <p id="objectComparisionResult"></p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <script type="module" src="js/jsPractice.js"></script>
+    </body>
+</html>
