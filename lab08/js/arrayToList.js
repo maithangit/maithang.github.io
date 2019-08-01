@@ -1,7 +1,7 @@
 'use strict';
 
 export default function arrayToList(arr) {
-    var obj = {};
+    let obj = {};
     for(var i = 0 ; i < arr.length; i++) {
       if(i == arr.length) {
        return obj.rest = null;
@@ -16,7 +16,7 @@ export default function arrayToList(arr) {
 
 Array.prototype.arrayToList = function() {
     let list = {};
-    for(var i = 0 ; i < this.length; i++) {
+    for(let i = 0 ; i < this.length; i++) {
       if(i == this.length) {
        return list.rest = null;
       }

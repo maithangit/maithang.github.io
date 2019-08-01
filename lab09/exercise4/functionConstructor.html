@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Inheritance - Class Sysntax : Person / Student / Teacher</title>
+        <script src="functionConstructor.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Javascript Inheritance Practice</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../exercise1/stringfilter.html">Exercise 1 - String Filter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../exercise2/bubblesort.html">Exercise 2 - Bubble Sort</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="exercise3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Exercise 3 - JS Inheritance
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="exercise3">
+                            <a class="dropdown-item" href="../../lab09/exercise3/objectPrototype.html">Object Prototype</a>
+                            <a class="dropdown-item" href="../../lab09/exercise3/functionConstructor.html">Function Constructor</a>
+                            <a class="dropdown-item" href="../../lab09/exercise3/classsyntax.html">ES6 Class Syntax</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="exercise4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Exercise 4 - JS Inheritance (Extra)
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="exercise4">
+                                  <a class="dropdown-item" href="../../lab09/exercise4/objectPrototype.html">Object Prototype</a>
+                                  <a class="dropdown-item" href="../../lab09/exercise4/functionConstructor.html">Function Constructor</a>
+                                  <a class="dropdown-item" href="../../lab09/exercise4/classSyntax.html">ES6 Class Syntax</a>
+                                </div>
+                              </li>
+
+                      </ul>
+                    </div>
+                  </nav>
+
+            <div class="container">
+                    
+        <div>
+<pre>
+    
+
+
+    
+<strong class="text-primary">Exercise 4:</strong>
+    Write code that will create person, student, and professor objects.
+    • Person objects have
+        o name and age fields
+        o a greeting method that prints out: “Greetings, my name is [name] and I am [age] years old.”
+        o a salute method that prints out: “Good morning!, and in case I dont see you, good afternoon, good evening and good night!”
+    • Student objects inherit name, age, and salute from person. They also have a field ‘major’ and have their own greeting method. 
+        Their greeting is “Hey, my name is [name] and I am studying [major]. The greeting should be output to the console.
+    • Professor objects inherit name, age, and salute from person. They also have a field ‘department’ and have their own greeting method. 
+        Their salutation is “Good day, my name is [name] and I am in the [department] department.” Output it to the console.
+    • Create a professor object and a student object. Call both the greeting and salutation methods on each.
+    • Do this exercise once using the object prototype approach for inheritance and then using the function constructor approach.
+</pre>
+        </div>
+        <div>
+            <strong>
+                <pre>This practise is using <em class="text-success">function constructor</em> to create Person, Student and Professor. Other approach: <a href="objectPrototype.html">object prototype</a>, <a href="classSyntax.html">ES6 class syntax</a>
+                <br />Look in the Chrome developer console to see the output for default unit test. CTRL_SHIFT_J
+                <br />Solution:</pre>
+            </strong>
+        </div>
+		<div>
+<pre>
+    { 
+        //Person object
+        const Person = function(name, age)
+        {
+            this.name = name;
+            this.age = age;
+        }
+    
+        Person.prototype.greeting = () => {
+            console.log("Greetings, my name is " + this.name + " and I am " + this.age + " years old");
+        }
+    
+        Person.prototype.salute = () => {
+            console.log("Good morning!, and in case I dont see you, good afternoon, good evening and good night!");
+        }
+    
+        //Student object
+        const Student = function(name, age, field) {
+            Person.call(this, name, age);
+            this.field = field;
+        }
+        
+        Student.prototype = Object.create(Person.prototype);
+        Student.prototype.greeting = () => {
+            console.log("Their greeting is “Hey, my name is " + this.name + " and I am studying " + this.field  + ".");
+        }
+    
+        //Professor object
+        const Professor = function(name, age, department) {
+            Person.call(this, name, age);
+            this.department = department;
+        }
+        
+        Teacher.prototype = Object.create(Person.prototype);
+        Teacher.prototype.greeting = () => {
+            console.log("Good day, my name is " + this.name + " and I am in the " + department + " department.");
+        }
+        
+        const aPerson = new Person("The Rock", 40);
+        aPerson.greeting();
+        aPerson.salute();
+        
+        const aStudent = new Student("John Doe", 20, "WAP");
+        aStudent.greeting();
+        aStudent.salute();
+    
+        const aProfessor = new Professor("John Cena", 57, "Computer Science");
+        aStudent.greeting();
+        aStudent.salute();
+    };
+        
+</pre>
+        </div>
+    </div>
+    </body>
+</html>
