@@ -64,6 +64,6 @@ Write code that will create person, student, and professor objects.
     aStudent.salute();
 
     const aProfessor = new Professor("John Cena", 57, "Computer Science");
-    aStudent.greeting();
-    aStudent.salute();
+    aProfessor.greeting();
+    aProfessor.salute();
 })();

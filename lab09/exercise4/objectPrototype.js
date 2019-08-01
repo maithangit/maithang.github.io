@@ -60,7 +60,7 @@ Write code that will create person, student, and professor objects.
 
     const aProfessor = Object.create(Professor);
     aProfessor.constructor("John Cena", 57, "Computer Science");
-    aStudent.greeting();
-    aStudent.salute();
+    aProfessor.greeting();
+    aProfessor.salute();
 })();
 
