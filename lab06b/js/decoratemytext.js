@@ -2,7 +2,7 @@
 
 function btnClicked() {
   alert("Hello, world!");
-  setInterval(increaseTextAreaFontSize, 500);
+      setInterval(increaseTextAreaFontSize, 500);
 }
 
 function increaseTextAreaFontSize() {
