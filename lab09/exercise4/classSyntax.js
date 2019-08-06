@@ -51,7 +51,7 @@ Write code that will create person, student, and professor objects.
             this.department = department;
         }
         greeting() {
-            console.log("Good day, my name is " + this.name + " and I am in the " + department + " department.");
+            console.log("Good day, my name is " + this.name + " and I am in the " + this.department + " department.");
         }
     }
 

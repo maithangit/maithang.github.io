@@ -42,14 +42,15 @@ Write code that will create person, student, and professor objects.
     }
 
     //Professor object
-    const Professor = function(name, age, department) {
-        Person.call(this, name, age);
+    var Professor = function(name, age, department) {
         this.department = department;
+        return Person.call(this, name, age);
     }
     
     Professor.prototype = Object.create(Person.prototype);
     Professor.prototype.greeting = () => {
-        console.log("Good day, my name is " + this.name + " and I am in the " + department + " department.");
+        console.log(self);
+        console.log("Good day, my name is " + this.name + " and I am in the " + this.department + " department.");
     }
     
     const aPerson = new Person("The Rock", 40);
@@ -61,6 +62,7 @@ Write code that will create person, student, and professor objects.
     aStudent.salute();
 
     const aProfessor = new Professor("John Cena", 57, "Computer Science");
+    console.log(aProfessor);
     aProfessor.greeting();
     aProfessor.salute();
 };

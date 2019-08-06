@@ -21,7 +21,8 @@ instances.
 {
     class Person{
         hobby;
-
+        name;
+        age;
         constructor(name, age){
             this.name = name;
         }
