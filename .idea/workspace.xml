@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e710c42-f40f-45fa-acd7-e25134aca6ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lab11/cleanscreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab11/cleanscreen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab06b/js/decoratemytext.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab06b/js/decoratemytext.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,72 +18,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab04a/responsivelayout.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab04b/tasklist.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab05/jstesting.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab07/ascii.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab06b/js/decoratemytext.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="68">
+              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -161,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,78 +109,12 @@
               <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab04a" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab04b" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab06a" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab06b" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab06b" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab08" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab09" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab09" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maithang.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maithang.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="lab11" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,18 +171,18 @@
       <workItem from="1565017975526" duration="3640000" />
       <workItem from="1565055435350" duration="7188000" />
       <workItem from="1565103721057" duration="15214000" />
-      <workItem from="1565126492839" duration="2554000" />
+      <workItem from="1565126492839" duration="3014000" />
+      <workItem from="1565189524896" duration="1856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37040000" />
+    <option name="totallyTimeSpent" value="39356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,10 +308,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab10_additional/Javascript-HTML5-jQuery-master/scripts/jquery-2.0.3.js">
+    <entry file="file://$PROJECT_DIR$/lab10_additional/Javascript-HTML5-jQuery-master/scripts/jquery-2.0.3.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="8563" column="4" selection-start-line="8563" selection-start-column="4" selection-end-line="8563" selection-end-column="4" />
+        <state relative-caret-position="901">
+          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab04a/responsivelayout.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab04b/tasklist.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab05/jstesting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -456,44 +343,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab05/jstesting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04b/tasklist.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab04a/responsivelayout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="374">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab11/cleanscreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
