@@ -22,22 +22,22 @@
       </div>
       <div class="row">
         <div class="col-md-5">
-          <input type="number" id="a" name="a" class="form-control" /> + <input class="form-control" type="text" id="b" name="b" /> = <input type="text" id="plusResult" name="plusResult" class="form-control" readonly />
+          <input type="number" id="a" name="a" class="form-control" /> + <input class="form-control" type="number" id="b" name="b" /> = <input type="text" id="plusResult" name="plusResult" class="form-control" readonly />
         </div>
       </div>
       <div class="row">
         <div class="col-md-5">
-          <input type="number" id="c" name="c" class="form-control" /> - <input type="text" id="d" name="d" class="form-control" /> = <input type="text" id="minusResult" name="minusResult" class="form-control" readonly />
+          <input type="number" id="c" name="c" class="form-control" /> - <input type="number" id="d" name="d" class="form-control" /> = <input type="text" id="minusResult" name="minusResult" class="form-control" readonly />
         </div>
       </div>
       <div class="row">
         <div class="col-md-5">
-          <input type="number" id="e" name="e" class="form-control" /> * <input type="text" id="f" name="f" class="form-control" /> = <input type="text" id="multiplyResult" name="multiplyResult" class="form-control" readonly />
+          <input type="number" id="e" name="e" class="form-control" /> * <input type="number" id="f" name="f" class="form-control" /> = <input type="text" id="multiplyResult" name="multiplyResult" class="form-control" readonly />
         </div>
       </div>
       <div class="row">
         <div class="col-md-5">
-          <input type="number" id="g" name="g" class="form-control" /> / <input type="text" id="h" name="h" class="form-control" /> = <input type="text" id="divideResult" name="divideResult" class="form-control" readonly />
+          <input type="number" id="g" name="g" class="form-control" /> / <input type="number" id="h" name="h" class="form-control" /> = <input type="text" id="divideResult" name="divideResult" class="form-control" readonly />
         </div>
       </div>
       <div class="row">
