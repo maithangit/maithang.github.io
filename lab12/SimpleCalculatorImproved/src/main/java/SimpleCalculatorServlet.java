@@ -1,6 +1,3 @@
-import com.google.gson.Gson;
-
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,6 +9,7 @@ import java.io.IOException;
 public class SimpleCalculatorServlet extends HttpServlet {
     private double parseRequest (HttpServletRequest request, String parameter) {
         double res = 0;
+
         String val = request.getParameter(parameter).toString().trim();
         if (val != "") {
             res = Double.parseDouble(val);
@@ -20,6 +18,7 @@ public class SimpleCalculatorServlet extends HttpServlet {
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //RequestDispatcher dispatch = request.getServletContext().getRequestDispatcher("/index.html");
+
         double a = parseRequest(request, "a");
         double b = parseRequest(request, "b");
         double c = parseRequest(request, "c");
