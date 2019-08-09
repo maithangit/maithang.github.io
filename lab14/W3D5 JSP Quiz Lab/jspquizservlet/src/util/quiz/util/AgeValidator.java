@@ -12,6 +12,6 @@ public class AgeValidator {
         } catch (NumberFormatException e) {
             return "Age is required and must be an integer.";
         }
-        return null;
+        return "";
     }
 }

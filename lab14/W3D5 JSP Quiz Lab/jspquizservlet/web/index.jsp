@@ -10,7 +10,7 @@
       <h1>The Number Quiz</h1>
       <%
         String errorMsg = (String) request.getAttribute("errorMsg");
-        if (errorMsg != null) {
+        if (errorMsg != "") {
           out.print("<p class='red'>" + errorMsg + "</p>");
         }
       %>
