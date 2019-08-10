@@ -14,6 +14,8 @@ public class Quiz {
     private int score = 0;
     private int answerTimes = 0;
 
+
+
     public String getNextQuestion() {
         if (currentQuestion > questions.length - 1) {
             return null;
@@ -68,5 +70,4 @@ public class Quiz {
         }
         return "NC";
     }
-
 }

@@ -12,6 +12,9 @@ public class Quiz {
 
     private int currentQuestion = -1;
     private int score = 0;
+    private int numCorrect = 0;
+    private int currentQuestionIndex = 0;
+
 
     public String getNextQuestion() {
         if (currentQuestion > questions.length - 1) {
@@ -43,5 +46,34 @@ public class Quiz {
 
     public void preventResubmit() {
         currentQuestion = questions.length + 1;
+    }
+
+
+    public void markAnswerCorrect() { //String ans) {
+        //if (isCorrect(ans)) {
+        currentQuestionIndex++;
+        numCorrect++;
+        //}
+    }
+
+    public boolean isCorrect(String ans) {
+        if (ans.equals("" + answers[currentQuestionIndex])) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+    public int getTotNumQuestions() {
+        return questions.length;
+    }
+
+    public String getCurrentQuestion(){
+        return questions[currentQuestionIndex];
+    }
+
+    public int getNumCorrect() {
+        return this.numCorrect;
     }
 }
